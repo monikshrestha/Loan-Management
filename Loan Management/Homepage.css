@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  header {
+    position: fixed;
+    background-color: #115cb1;
+    padding: 20px;
+    height: 35px;
+    width: 100%;
+  }
+  
+  .name h3 {
+    color: white;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 800;
+    margin-left: 6%;
+  
+  }
+  
+  .sidebar {
+    background: #1167b1;
+    position: fixed;
+    padding-top: 30px;
+    width: 250px;
+    height: 100%;
+  
+  }
+  
+  .sidebar a {
+    color: white;
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    font-weight: 400;
+    box-sizing: border-box;
+    transition: 0.5s;
+    transition-property: background;
+    padding: 7%;
+  }
+  
+  .sidebar a:hover {
+    background: rgb(25, 93, 240);
+  }
+  
+  .sidebar a span{
+      margin: 0;
+  }
+  
+  .sidebar-menu{
+      margin-top: 15%;
+  }
+  
+  .logout-menu{
+      margin-top: 100%;
+  }
+  
+  .mainbody {
+    width: 78%;
+    height: 100%;
+    position: fixed;
+    margin-top: 15px;
+    padding-top: 30px;
+    margin-left: 300px;
+  }
+  .mainheading{
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+.card1{
+    height: 200px;
+    padding: 5%;
+    color: #000000;
+    box-shadow: 0px 5px 5px rgba(0,0,0,0.05);
+  }
+  .card-title{
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+    
+  }
+  .card-title p{
+    font-size: 10px;
+  }

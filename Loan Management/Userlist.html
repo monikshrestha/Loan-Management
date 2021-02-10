@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="Userlists.css" />
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+
+    <title>User</title>
+  </head>
+  <body>
+    <div class="sidebar">
+      <div class="name">
+        <h3>Loan & Investment Management</h3>
+      </div>
+
+      <div class="sidebar-menu">
+        <a href="#" class="#"
+          ><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a
+        >
+        <a href="./Borrowerlist.html" class="#"
+          ><i class="fa fa-money" aria-hidden="true"></i
+          ><span>Borrower</span></a
+        >
+        <a href="#" class="#"
+          ><i class="fa fa-credit-card-alt" aria-hidden="true"></i
+          >Investment<span></span
+        ></a>
+        <a href="#" class="#"
+          ><i class="fa fa-bell" aria-hidden="true"></i
+          ><span>Notification</span></a
+        >
+        <a href="#" class="#"
+          ><i class="fa fa-bell" aria-hidden="true"></i><span>Users</span></a
+        >
+      </div>
+
+      <div class="logout-menu">
+        <a href="#" class="#">Logout</a>
+      </div>
+    </div>
+    <!-- sidebar menu -->
+
+    <div class="mainbody">
+      <div class="topic-head">
+        <div class="topic-left">
+          <h3>Userlists</h3>
+        </div>
+
+        <input type="checkbox" id="show" />
+        <label for="show" class="add_button">Add User</label>
+
+        <div class="form-show">
+          <label
+            for="show"
+            class="close-btn fas fa-times"
+            title="close"
+          ></label>
+          <div class="text">Add User</div>
+          <form action="#">
+            <div class="data">
+              <label>Name</label>
+              <input />
+            </div>
+            <div class="data">
+              <label>Address</label>
+              <input />
+            </div>
+            <div class="data">
+              <label>Contact No.</label>
+              <input />
+            </div>
+            <div class="data">
+              <label>Email</label>
+              <input />
+            </div>
+            <div class="data">
+              <label>User role</label>
+              <input />
+            </div>
+            <div class="data">
+              <label>Interest Rate</label>
+              <input />
+            </div>
+
+            <div class="btn">
+              <button type="submit">Save</button>
+              <button type="list">Back To List</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="search">
+        <div class="input-group">
+          <input type="search" id="form1" class="form-control" />
+          <span>
+            <button type="button" class="btnsearch">
+              <i class="fas fa-search"></i>
+            </button>
+          </span>
+        </div>
+      </div>
+      <!-- end of topic-head -->
+
+      <div class="content-table">
+        <table>
+          <tr class="tb-head">
+            <th class="num"><span>S.No.</span></th>
+            <th class="det"><span>Details</span></th>
+            <th class="amt"><span>Amount</span></th>
+            <th class="ir"><span>Interest Rate</span></th>
+            <th class="time"><span>Duration</span></th>
+            <th class="action"><span>Action</span></th>
+          </tr>
+          <tr class="tb-content">
+            <td>1</td>
+            <td>
+              <input type="checkbox" id="show-det" />
+              <label for="show-det" class="td-name">Monik Shrestha</label>
+
+              <div class="form-show-det">
+                <label
+                  for="show-det"
+                  class="close-btn fas fa-times"
+                  title="close"
+                ></label>
+                <div class="text">Borrower Details</div>
+                <form action="#">
+                  <div class="data">
+                    <label>Name</label><br />
+                    <label>Get desiered value here</label>
+                  </div>
+                  <div class="data">
+                    <label>Address</label><br />
+                    <label>Get desiered value here</label>
+                  </div>
+                  <div class="data">
+                    <label>Contact No.</label><br />
+                    <label>Get desiered value here</label>
+                  </div>
+                  <div class="data">
+                    <label>Email</label><br />
+                    <label>Get desiered value here</label>
+                  </div>
+                  <div class="data">
+                    <label>Amount Given</label><br />
+                    <label>Get desiered value here</label>
+                  </div>
+                  <div class="data">
+                    <label>Interest Rate</label><br />
+                    <label>Get desiered value here</label>
+                  </div>
+                  <div class="data">
+                    <label>Duration</label><br />
+                    <label>Get desiered value here</label>
+                  </div>
+                  <div class="data">
+                    <label>Final Intreset AMT</label><br />
+                    <label>Get desiered value here</label>
+                  </div>
+                  <div class="btn">
+                    <button type="submit">Close</button>
+                  </div>
+                </form>
+              </div>
+            </td>
+            <td>1,00,000</td>
+            <td>2%</td>
+            <td>2 Years</td>
+            <td>
+              <div class="edit-opt">
+                <input type="checkbox" id="edit-det" />
+                <label for="edit-det" class="td-name">Edit </label>
+                <div class="form-edit-det">
+                  <label
+                    for="edit-det"
+                    class="close-btn fas fa-times"
+                    title="close"
+                  ></label>
+                  <div class="text">Edit user Role</div>
+                  <form action="#">
+                    <input
+                      type="checkbox"
+                      id="vehicle1"
+                      name="vehicle1"
+                      value="Bike"
+                    />
+                    <label for="vehicle1"> I have a bike</label><br />
+                    <input
+                      type="checkbox"
+                      id="vehicle2"
+                      name="vehicle2"
+                      value="Car"
+                    />
+                    <label for="vehicle2"> I have a car</label><br />
+                    <input
+                      type="checkbox"
+                      id="vehicle3"
+                      name="vehicle3"
+                      value="Boat"
+                    />
+                    <label for="vehicle3"> I have a boat</label><br /><br />
+                  </form>
+                </div>
+              </div>
+              <div class="del-opt">
+                <button
+                  onclick="document.getElementById('id01').style.display='block'"
+                >
+                  Delete
+                </button>
+
+                <div id="id01" class="modal">
+                  <span
+                    onclick="document.getElementById('id01').style.display='none'"
+                    class="close"
+                    title="Close Modal"
+                    >×</span
+                  >
+                  <form class="modal-content" action="/action_page.php">
+                    <div class="prompt">
+                      <h1>Delete Account</h1>
+                      <p>Are you sure you want to delete the borrower?</p>
+
+                      <div class="clearfix">
+                        <button
+                          type="button"
+                          onclick="document.getElementById('id01').style.display='none'"
+                          class="cancelbtn"
+                        >
+                          Cancel
+                        </button>
+                        <button
+                          type="button"
+                          onclick="document.getElementById('id01').style.display='none'"
+                          class="deletebtn"
+                        >
+                          Delete
+                        </button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <script>
+      // Get the modal
+      var modal = document.getElementById("id01");
+
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function (event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
+      };
+    </script>
+  </body>
+</html>
